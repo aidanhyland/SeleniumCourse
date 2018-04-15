@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel practical suite" parallel="tests" thread-count="2">
+
+    <test name="Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testNG_practical_exam.TestnG_Parallel_practical1"/>
+        </classes>
+    </test>
+
+    <test name="Chrome">
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="testNG_practical_exam.TestnG_Parallel_practical1"/>
+        </classes>
+    </test>
+
+</suite>

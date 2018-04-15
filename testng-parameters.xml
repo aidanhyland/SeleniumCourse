@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Complete suite">
+
+    <test name="Application Parameters">
+
+        <parameter name="browser" value="firefox"/>
+        <parameter name="platform" value="mac"/>
+        <parameter name="response" value="200"/>
+
+        <classes>
+            <class name="testNG.TestnG_parameters"/>
+        </classes>
+
+    </test>
+
+
+</suite>

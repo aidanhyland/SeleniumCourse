@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="testNG_practical_exam.TestnG_Parallel_practical1">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- testNG_practical_exam.TestnG_Parallel_practical1 -->
+      <class name="testNG.TestnG_ListenersTest2">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- testNG.TestnG_ListenersTest2 -->
+      <class name="testNG.TestnG_ITestResultDemo">
+        <methods>
+          <include name="testMethod1"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNG.TestnG_ITestResultDemo -->
+      <class name="testNG.TestnG_SoftAssert">
+        <methods>
+          <include name="AfterClass"/>
+          <include name="AfterTest"/>
+          <include name="BeforeTest"/>
+          <include name="beforeClass"/>
+          <include name="AfterSuite"/>
+          <include name="BeforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- testNG.TestnG_SoftAssert -->
+      <class name="testNG.TestnG_Demo">
+        <methods>
+          <include name="AfterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- testNG.TestnG_Demo -->
+      <class name="testNG.TestnG_ListenersTest1">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testNG.TestnG_ListenersTest1 -->
+      <class name="testNG.SeleniumLoginTest">
+        <methods>
+          <include name="test1_validLoginTest"/>
+          <include name="beforeClass"/>
+          <include name="tearDown"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testNG.SeleniumLoginTest -->
+      <class name="testNG.TestnG_ReportAndLogs">
+        <methods>
+          <include name="testMethod3"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="cleanUp"/>
+          <include name="testMethod2"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testNG.TestnG_ReportAndLogs -->
+      <class name="testNG.TestnG_parameters">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- testNG.TestnG_parameters -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

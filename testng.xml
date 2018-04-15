@@ -1,0 +1,33 @@
+<suite name="Complete suite">
+    <test name="Application test1">
+        <classes>
+            <class name="testNG.TestnG_SoftAssert"/>
+        </classes>
+    </test>
+    <test name="Application test2" preserve-order="true">
+        <classes>
+            <class name="testNG.TestnG_Priority"/>
+        </classes>
+    </test>
+    <test name="Application groups" enabled="false">
+        <groups>
+            <define name="all">
+                <include name="cars"/>
+                <include name="bikes"/>
+                <include name="trucks"/>
+            </define>
+            <define name="cars">
+                <include name="cars"/>
+            </define>
+            <define name="trucks">
+                <include name="trucks"/>
+            </define>
+            <run>
+                <include name="cars"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testNG.TestnG_Groups"/>
+        </classes>
+    </test>
+</suite>

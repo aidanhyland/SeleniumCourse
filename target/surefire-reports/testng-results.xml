@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Complete suite" duration-ms="57" started-at="2018-04-15T18:06:26Z" finished-at="2018-04-15T18:06:26Z">
+    <groups>
+    </groups>
+    <test name="Application test1" duration-ms="18" started-at="2018-04-15T18:06:26Z" finished-at="2018-04-15T18:06:26Z">
+      <class name="testNG.TestnG_SoftAssert">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:testNG.TestnG_SoftAssert@7f560810]" name="BeforeTest" is-config="true" duration-ms="0" started-at="2018-04-15T19:06:26Z" finished-at="2018-04-15T19:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testNG.TestnG_SoftAssert@7f560810]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-04-15T19:06:26Z" finished-at="2018-04-15T19:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testAddNumber()[pri:0, instance:testNG.TestnG_SoftAssert@7f560810]" name="testAddNumber" duration-ms="5" started-at="2018-04-15T19:06:26Z" finished-at="2018-04-15T19:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNumber -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.TestnG_SoftAssert@7f560810]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-15T19:06:26Z" finished-at="2018-04-15T19:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:testNG.TestnG_SoftAssert@7f560810]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2018-04-15T19:06:26Z" finished-at="2018-04-15T19:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:testNG.TestnG_SoftAssert@7f560810]" name="AfterClass" is-config="true" duration-ms="0" started-at="2018-04-15T19:06:26Z" finished-at="2018-04-15T19:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:testNG.TestnG_SoftAssert@7f560810]" name="AfterTest" is-config="true" duration-ms="0" started-at="2018-04-15T19:06:26Z" finished-at="2018-04-15T19:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- testNG.TestnG_SoftAssert -->
+    </test> <!-- Application test1 -->
+    <test name="Application test2" duration-ms="5" started-at="2018-04-15T18:06:26Z" finished-at="2018-04-15T18:06:26Z">
+      <class name="testNG.TestnG_SoftAssert">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:testNG.TestnG_SoftAssert@7f560810]" name="BeforeSuite" is-config="true" duration-ms="10" started-at="2018-04-15T19:06:26Z" finished-at="2018-04-15T19:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:testNG.TestnG_SoftAssert@7f560810]" name="AfterSuite" is-config="true" duration-ms="0" started-at="2018-04-15T19:06:26Z" finished-at="2018-04-15T19:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- testNG.TestnG_SoftAssert -->
+      <class name="testNG.TestnG_Priority">
+        <test-method status="PASS" signature="test3()[pri:0, instance:testNG.TestnG_Priority@5f375618]" name="test3" duration-ms="1" started-at="2018-04-15T19:06:26Z" finished-at="2018-04-15T19:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:testNG.TestnG_Priority@5f375618]" name="test2" duration-ms="1" started-at="2018-04-15T19:06:26Z" finished-at="2018-04-15T19:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:testNG.TestnG_Priority@5f375618]" name="test1" duration-ms="1" started-at="2018-04-15T19:06:26Z" finished-at="2018-04-15T19:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- testNG.TestnG_Priority -->
+    </test> <!-- Application test2 -->
+  </suite> <!-- Complete suite -->
+</testng-results>

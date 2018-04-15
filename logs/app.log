@@ -1,0 +1,5 @@
+23:36:15.384 INFO  Log4jExample -Info message log
+23:36:15.392 ERROR Log4jExample -Error message log
+23:36:15.392 FATAL Log4jExample -Fatal message log
+23:36:22.856 ERROR Log4jDemo -Error message log
+23:36:22.864 FATAL Log4jDemo -Fatal message log
